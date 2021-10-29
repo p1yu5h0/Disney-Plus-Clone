@@ -52,6 +52,7 @@ const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 0 36px;
+  overflow-x: 
   letter-spacing: 16px;
   z-index: 3;
 `;
@@ -59,8 +60,8 @@ const Nav = styled.nav`
 const Logo = styled.a`
   padding: 0 0 5px 0;
   width: 90px;
-  margin-top: 6px;
-  margin-right: 5px;
+  margin-top: 3px;
+  margin-right: 3px;
   max-height: 70px;
   font-size: 0;
   display: inline-block;
@@ -80,10 +81,10 @@ const NavMenu = styled.div`
     height: 100%;
     justify-content: flex-end;
     margin: 0px;
-    padding: 5px 0 0 0;
+    padding: 5px 5px 0 0;
     position: relative;
     margin-right: auto;
-    margin-left: 25px;
+    margin-left: 20px;
     a {
     display: flex;
     align-items: center;
@@ -96,10 +97,10 @@ const NavMenu = styled.div`
     }
     span {
         color: rgb(249, 249, 249);
-        font-size: 13px;
+        font-size: 15px;
         letter-spacing: 1.42px;
         line-height: 1.08;
-        padding: 2px 0px;
+        padding: 3px 1px;
         white-space: nowrap;
         position: relative;
         &:before {
