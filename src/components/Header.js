@@ -48,6 +48,8 @@ const Nav = styled.nav`
   height: 70px; 
 //   height of this navbar
   background-color: #090b13;
+  background-color: #10121B;
+//   background-color: #212434;
   display: flex;
   justify-content: space-between;
   align-items: center;
