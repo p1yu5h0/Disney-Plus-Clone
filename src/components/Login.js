@@ -5,12 +5,12 @@ function Login() {
     return (
         <Container>
             <CTA>
-                <CTALogoOne src="/images/cta-logo-one.svg" />
+                <CTALogoOne src="/images/cta-logo-one.svg" alt="" />
                 <SignUp>GET UNLIMITED ACCESS TO Disney+ HotStar</SignUp>
                 <Description>
                 © 2021 STAR. All Rights Reserved. HBO, Home Box Office and all related channel and programming logos are service marks of, and all related programming visuals and elements are the property of, Home Box Office, Inc. All rights reserved.
                 </Description>
-                <CTALogoTwo src="/images/cta-logo-two.png" />
+                <CTALogoTwo src="/images/cta-logo-two.png" alt=""/>
             </CTA>
         </Container>
     )

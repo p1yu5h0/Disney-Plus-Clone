@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-          <Header /> //header remains same for all the webpages
+          <Header /> 
           <Switch>
             <Route path="/login">
               <Login />

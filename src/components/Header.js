@@ -8,30 +8,30 @@ function Header() {
                 <img src="/images/logo.svg" alt="Disney+" />
             </Logo>
             <NavMenu>
-                <a> 
-                    <img src="/images/home-icon.svg"></img>
+                <div> 
+                    <img src="/images/home-icon.svg" alt=""></img>
                     <span>HOME</span>
-                </a>
-                <a> 
-                    <img src="/images/search-icon.svg"></img>
+                </div>
+                <div> 
+                    <img src="/images/search-icon.svg" alt=""></img>
                     <span>SEARCH</span>
-                </a>
-                <a> 
-                    <img src="/images/original-icon.svg"></img>
+                </div>
+                <div> 
+                    <img src="/images/original-icon.svg" alt=""></img>
                     <span>ORIGINALS</span>
-                </a>
-                <a> 
-                    <img src="/images/movie-icon.svg"></img>
+                </div>
+                <div> 
+                    <img src="/images/movie-icon.svg" alt=""></img>
                     <span>MOVIES</span>
-                </a>
-                <a> 
-                    <img src="/images/watchlist-icon.svg"></img>
+                </div>
+                <div> 
+                    <img src="/images/watchlist-icon.svg" alt=""></img>
                     <span>WATCHLIST</span>
-                </a>
-                <a> 
-                    <img src="/images/series-icon.svg"></img>
+                </div>
+                <div> 
+                    <img src="/images/series-icon.svg" alt=""></img>
                     <span>SERIES</span>
-                </a>
+                </div>
             </NavMenu>
             <UserImg src="https://media-exp1.licdn.com/dms/image/D5603AQH89TA7l4YAew/profile-displayphoto-shrink_800_800/0/1633354518491?e=1640822400&v=beta&t=CJP2Abpy2z7hwTl3sZ1lKtQ6K5B1x-ZkJrX1uvP_G5Y" alt="DP"/>
         </Nav>
@@ -87,7 +87,7 @@ const NavMenu = styled.div`
     position: relative;
     margin-right: auto;
     margin-left: 20px;
-    a {
+    div {
     display: flex;
     align-items: center;
     padding: 0 12px;
