@@ -41,13 +41,15 @@ function Header() {
 export default Header
 
 const Nav = styled.nav`
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 70px; 
+//   height of this navbar
   background-color: #090b13;
   background-color: #10121B;
+//   background-color: #212434;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,7 +60,7 @@ const Nav = styled.nav`
 `;
 
 const Logo = styled.a`
-    position: relative;
+position: relative;
   padding: 0 0 5px 0;
   width: 90px;
   margin-top: 3px;
