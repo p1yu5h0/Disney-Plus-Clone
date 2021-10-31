@@ -1,18 +1,17 @@
-// import React, {useEffect} from 'react'
-import React from 'react'
+import React, {useEffect} from 'react'
 import styled from 'styled-components'
 import ImgSlider from './ImgSlider'
 import Viewers from './Viewers'
 import Movies from './Movies'
-// import db from '../firebase'
+import db from '/home/p1yu5h0/Disney-Plus-Clone/src/firebase'
 
 function Home() {
 
-    // useEffect(()=>{
-    //     db.collection("movies").onSnapshot((snapshot)=>{
-    //         console.log(snapshot);
-    //     })
-    // }, [])
+    useEffect(()=>{
+        db.collection("movies").onSnapshot((snapshot)=>{
+            console.log(snapshot);
+        })
+    }, [])
 
     return (
         <Container>
