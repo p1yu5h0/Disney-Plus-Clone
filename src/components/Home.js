@@ -8,6 +8,7 @@ import NewDisney from './NewDisney'
 import Originals from './Originals'
 // import db from '/home/p1yu5h0/Disney-Plus-Clone/src/firebase'
 import Trending from './Trending'
+import Footer from './Footer'
 
 function Home() {
 
@@ -28,6 +29,7 @@ function Home() {
             <NewDisney />
             <Movies />
             <Trending />
+            <Footer />
         </Container>
     )
 }
