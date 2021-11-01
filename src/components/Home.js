@@ -1,23 +1,24 @@
-import React, {useEffect} from 'react'
+// import React, {useEffect} from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import ImgSlider from './ImgSlider'
 import Viewers from './Viewers'
 import Movies from './Movies'
 import NewDisney from './NewDisney'
 import Originals from './Originals'
-import db from '/home/p1yu5h0/Disney-Plus-Clone/src/firebase'
+// import db from '/home/p1yu5h0/Disney-Plus-Clone/src/firebase'
 import Trending from './Trending'
 
 function Home() {
 
-    useEffect(()=>{
-        db.collection("movies").onSnapshot((snapshot)=>{
-            let tempMovies = snapshot.docs.map((doc)=>{
-                console.log(doc.data());
-                return { id: doc.id, ...doc.data()}
-            })
-        })
-    }, [])
+    // useEffect(()=>{
+    //     db.collection("movies").onSnapshot((snapshot)=>{
+    //         let tempMovies = snapshot.docs.map((doc)=>{
+    //             console.log(doc.data());
+    //             return { id: doc.id, ...doc.data()}
+    //         })
+    //     })
+    // }, [])
 
     return (
         <Container>
