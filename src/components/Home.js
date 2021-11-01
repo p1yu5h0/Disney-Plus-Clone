@@ -3,7 +3,10 @@ import styled from 'styled-components'
 import ImgSlider from './ImgSlider'
 import Viewers from './Viewers'
 import Movies from './Movies'
+import NewDisney from './NewDisney'
+import Originals from './Originals'
 import db from '/home/p1yu5h0/Disney-Plus-Clone/src/firebase'
+import Trending from './Trending'
 
 function Home() {
 
@@ -20,7 +23,10 @@ function Home() {
         <Container>
             <ImgSlider />
             <Viewers />
+            <Originals />
+            <NewDisney />
             <Movies />
+            <Trending />
         </Container>
     )
 }

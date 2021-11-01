@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
-function Movies() {
+function NewDisney() {
     var settings = {
         dots: false,
         infinite: true,
@@ -16,47 +16,36 @@ function Movies() {
     };
     return (
         <Container >
-            <h2>Recommended For You</h2>
+            <h2>New to Disney+</h2>
             <Content {...settings}>
                 <Wrap>
-                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1331/641331-h" alt="" />
+                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/6652/846652-h" alt="" />
                 </Wrap>
                 <Wrap>
-                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1020/651020-h" alt=""/>
+                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4554/674554-h" alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/857/650857-h" alt=""/>
+                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4539/674539-h" alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/373/240373-h" alt=""/>
+                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4600/674600-h" alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/old_images/MOVIE/4503/1000034503/1000034503-h" alt=""/>
+                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/9552/919552-h" alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/1527/571527-h" alt=""/>
-                </Wrap>
-                <Wrap>
-                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/old_images/MOVIE/3314/1770003314/1770003314-h" alt=""/>
-                </Wrap>
-                <Wrap>
-                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/6535/846535-h" alt="" />
+                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4290/754290-h" alt=""/>
                 </Wrap>
             </Content>
         </Container>
     )
 }
 
-export default Movies
-
+export default NewDisney
 const Container = styled.div`
 
 `
 const Content = styled(Slider)`
-    // display: grid;
-    // grid-gap: 25px;
-    // grid-template-columns: repeat(4, minmax(0, 1fr));
-    margin-top: 30px;
     margin-right: 20px;
 
     ul li button {

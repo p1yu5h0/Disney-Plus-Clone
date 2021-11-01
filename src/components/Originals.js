@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
-function Movies() {
+function Originals() {
     var settings = {
         dots: false,
         infinite: true,
@@ -16,46 +16,38 @@ function Movies() {
     };
     return (
         <Container >
-            <h2>Recommended For You</h2>
+            <h2>Originals</h2>
             <Content {...settings}>
                 <Wrap>
-                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1331/641331-h" alt="" />
+                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/1681/1011681-h-ac6ee255f074" alt="" />
                 </Wrap>
                 <Wrap>
-                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1020/651020-h" alt=""/>
+                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/1819/911819-h" alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/857/650857-h" alt=""/>
+                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/1743/1041743-h-663df12087d4" alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/373/240373-h" alt=""/>
+                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4469/674469-h" alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/old_images/MOVIE/4503/1000034503/1000034503-h" alt=""/>
+                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4661/674661-h" alt=""/>
                 </Wrap>
                 <Wrap>
-                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/1527/571527-h" alt=""/>
-                </Wrap>
-                <Wrap>
-                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/old_images/MOVIE/3314/1770003314/1770003314-h" alt=""/>
-                </Wrap>
-                <Wrap>
-                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/6535/846535-h" alt="" />
+                    <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4524/674524-h" alt=""/>
+                
                 </Wrap>
             </Content>
         </Container>
     )
 }
 
-export default Movies
+export default Originals
 
 const Container = styled.div`
 
 `
 const Content = styled(Slider)`
-    // display: grid;
-    // grid-gap: 25px;
-    // grid-template-columns: repeat(4, minmax(0, 1fr));
     margin-top: 30px;
     margin-right: 20px;
 
